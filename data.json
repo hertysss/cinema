@@ -1,0 +1,993 @@
+{
+    "cinemas": {
+        "Солнцево": {
+            "name": "Солнцево",
+            "halls": {
+                "Хороший": {
+                    "name": "Хороший",
+                    "rows": 2,
+                    "cols": 2,
+                    "sessions": {
+                        "11.12.2022 11:32": {
+                            "film_name": "Матрица",
+                            "start_time": "11.12.2022 11:32",
+                            "end_time": "11.12.2022 11:52",
+                            "duration": 20,
+                            "rows": 2,
+                            "cols": 2,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
+                                    }
+                                }
+                            }
+                        },
+                        "12.12.2022 16:07": {
+                            "film_name": "Матрица",
+                            "start_time": "12.12.2022 16:07",
+                            "end_time": "12.12.2022 16:27",
+                            "duration": 20,
+                            "rows": 2,
+                            "cols": 2,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Плохой": {
+                    "name": "Плохой",
+                    "rows": 4,
+                    "cols": 6,
+                    "sessions": {
+                        "11.12.2022 13:28": {
+                            "film_name": "Матрица",
+                            "start_time": "11.12.2022 13:28",
+                            "end_time": "11.12.2022 13:48",
+                            "duration": 20,
+                            "rows": 4,
+                            "cols": 6,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        },
+                        "11.12.2022 16:16": {
+                            "film_name": "Матрица",
+                            "start_time": "11.12.2022 16:16",
+                            "end_time": "11.12.2022 16:36",
+                            "duration": 20,
+                            "rows": 4,
+                            "cols": 6,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": false
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": false
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": false
+                                    }
+                                }
+                            }
+                        },
+                        "13.12.2022 12:36": {
+                            "film_name": "Матрица",
+                            "start_time": "13.12.2022 12:36",
+                            "end_time": "13.12.2022 12:56",
+                            "duration": 20,
+                            "rows": 4,
+                            "cols": 6,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "aaaa": {
+                    "name": "aaaa",
+                    "rows": 5,
+                    "cols": 5,
+                    "sessions": {
+                        "11.12.2022 16:08": {
+                            "film_name": "Матрица",
+                            "start_time": "11.12.2022 16:08",
+                            "end_time": "11.12.2022 16:28",
+                            "duration": 20,
+                            "rows": 5,
+                            "cols": 5,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": false
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                },
+                                "4": {
+                                    "0": {
+                                        "row": 4,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 4,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 4,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 4,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 4,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        },
+                        "12.12.2022 14:06": {
+                            "film_name": "Матрица",
+                            "start_time": "12.12.2022 14:06",
+                            "end_time": "12.12.2022 14:26",
+                            "duration": 20,
+                            "rows": 5,
+                            "cols": 5,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                },
+                                "4": {
+                                    "0": {
+                                        "row": 4,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 4,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 4,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 4,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 4,
+                                        "col": 4,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Фестиваль": {
+            "name": "Фестиваль",
+            "halls": {
+                "Малый": {
+                    "name": "Малый",
+                    "rows": 2,
+                    "cols": 3,
+                    "sessions": {
+                        "12.12.2022 17:16": {
+                            "film_name": "Матрица",
+                            "start_time": "12.12.2022 17:16",
+                            "end_time": "12.12.2022 17:36",
+                            "duration": 20,
+                            "rows": 2,
+                            "cols": 3,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        },
+                        "12.12.2022 19:38": {
+                            "film_name": "Матрица",
+                            "start_time": "12.12.2022 19:38",
+                            "end_time": "12.12.2022 19:58",
+                            "duration": 20,
+                            "rows": 2,
+                            "cols": 3,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Зал-2": {
+                    "name": "Зал-2",
+                    "rows": 2,
+                    "cols": 5,
+                    "sessions": {
+                        "12.12.2022 20:53": {
+                            "film_name": "Терминатор",
+                            "start_time": "12.12.2022 20:53",
+                            "end_time": "12.12.2022 21:28",
+                            "duration": 35,
+                            "rows": 2,
+                            "cols": 5,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "films": {
+        "Матрица": {
+            "name": "Матрица",
+            "duration": 20
+        },
+        "Терминатор": {
+            "name": "Терминатор",
+            "duration": 35
+        }
+    }
+}
