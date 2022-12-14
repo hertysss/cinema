@@ -12,9 +12,6 @@ def create_json():
         data = {"cinemas": {}, "films": {}}
         json.dump(data, file)
 
-def create_report_timetable(session):
-    pass
-
 def init_data(ts):
     ts.add_cinema("Кинотеатр-1")
     ts.add_film("Фильм-1", 123)
@@ -29,10 +26,5 @@ def print_dict(dct):
         print(key, value)
 
 
-
-
-#ts.sale_ticket("Кинотеатр-1", "Первый", "07:00", 2, 2)
-#print_dict(ts.get_tickets("Кинотеатр-1", "Первый", "07:00"))
-#print()
-#print_dict(ts.get_free_tickets("Кинотеатр-1", "Первый", "07:00"))
-#print(ts.is_ticket_free("Кинотеатр-1", "Первый", "07:00", 0, 0))
+def create_report_timetable(session):
+    pass
