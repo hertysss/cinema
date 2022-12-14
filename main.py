@@ -3,9 +3,7 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtCore import QDateTime, QModelIndex
 from PyQt5.QtGui import QColor
-from PyQt5.QtWidgets import QApplication, QMainWindow, QComboBox, QListView, QTableWidget, QTableWidgetItem, \
-    QAbstractItemView, QLineEdit, QInputDialog, QDialog, QTextBrowser, QDateTimeEdit, QListWidget, QTreeView, \
-    QTreeWidget, QTreeWidgetItem, QListWidgetItem, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QAbstractItemView
 
 from cl_ticket_sys import Ticket_system
 from cl_dialogs import Add_cinema_dialog, Add_hall_dialog, Add_film_dialog, Add_session_dialog, \
@@ -46,6 +44,21 @@ class MyWidget(QMainWindow):
         self.act_del_film.triggered.connect(self.del_film)
 
         self.act_find_session.triggered.connect(self.find_session)
+
+
+        self.act_timetable.triggered.connect(self.report_timetable)
+        self.act_grafik.triggered.connect(self.report_grafik)
+        self.act_reklama.triggered.connect(self.report_reklama)
+
+    def report_timetable(self):
+        session = self.ts.get_session(self.current_cinema_name,self.current_hall_name,self.current_session)
+        create_report_timetable(session)
+
+    def report_grafik(self):
+        pass
+
+    def report_reklama(self):
+        pass
 
     def load_data(self):
         #create_json()

@@ -179,12 +179,21 @@
     </property>
     <addaction name="act_find_session"/>
    </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>Отчеты</string>
+    </property>
+    <addaction name="act_timetable"/>
+    <addaction name="act_grafik"/>
+    <addaction name="act_reklama"/>
+   </widget>
    <addaction name="menu"/>
    <addaction name="menu_2"/>
    <addaction name="menu_3"/>
    <addaction name="menu_4"/>
    <addaction name="menu_5"/>
    <addaction name="menu_7"/>
+   <addaction name="menu_6"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="act_exit">
@@ -235,6 +244,21 @@
   <action name="act_find_session">
    <property name="text">
     <string>Ближайший сеанс</string>
+   </property>
+  </action>
+  <action name="act_timetable">
+   <property name="text">
+    <string>Расписания сеансов за прошедший месяц</string>
+   </property>
+  </action>
+  <action name="act_grafik">
+   <property name="text">
+    <string>График загруженности от времени суток</string>
+   </property>
+  </action>
+  <action name="act_reklama">
+   <property name="text">
+    <string>Рекламные буклеты</string>
    </property>
   </action>
  </widget>

@@ -12,6 +12,8 @@ def create_json():
         data = {"cinemas": {}, "films": {}}
         json.dump(data, file)
 
+def create_report_timetable(session):
+    pass
 
 def init_data(ts):
     ts.add_cinema("Кинотеатр-1")
