@@ -1,7 +1,8 @@
+from datetime import datetime
 import sys
 
 from PyQt5 import uic
-from PyQt5.QtCore import QDateTime, QModelIndex
+from PyQt5.QtCore import QDateTime
 from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QAbstractItemView
 
@@ -14,6 +15,8 @@ from funcs import *
 
 GREEN = QColor(0, 255, 0)
 RED = QColor(255, 0, 0)
+MONTH_LIST = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь',
+           'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']
 
 
 class MyWidget(QMainWindow):
@@ -45,14 +48,26 @@ class MyWidget(QMainWindow):
 
         self.act_find_session.triggered.connect(self.find_session)
 
-
         self.act_timetable.triggered.connect(self.report_timetable)
         self.act_grafik.triggered.connect(self.report_grafik)
         self.act_reklama.triggered.connect(self.report_reklama)
 
     def report_timetable(self):
-        session = self.ts.get_session(self.current_cinema_name,self.current_hall_name,self.current_session)
-        create_report_timetable(session)
+        month_num = (QDateTime.currentDateTime().date().month() - 1)
+        data = dict()
+        for cinema_name in self.ts.get_cinemas():
+            for hall_name in self.ts.get_halls(cinema_name):
+                for start_time, session in self.ts.get_sessions(cinema_name, hall_name).items():
+                    cur_month_num = int(start_time.split(".")[1])
+                    if cur_month_num == month_num:
+                        if cinema_name not in data:
+                            data[cinema_name] = dict()
+                        if hall_name not in data[cinema_name]:
+                            data[cinema_name][hall_name] = dict()
+                        data[cinema_name][hall_name][start_time] = [session["start_time"], session["film_name"]]
+
+        month_name = MONTH_LIST[month_num - 1]
+        create_report_timetable(month_name, data)
 
     def report_grafik(self):
         pass
@@ -61,10 +76,10 @@ class MyWidget(QMainWindow):
         pass
 
     def load_data(self):
-        #create_json()
+        # create_json()
         data = read_data()
         ts = Ticket_system(data)
-        #init_data(ts)
+        # init_data(ts)
         self.statusbar.showMessage("Данные загружены")
         return ts
 
@@ -183,7 +198,7 @@ class MyWidget(QMainWindow):
         self.get_session_info()
 
     def get_session_info(self):
-        session = self.ts.get_session(self.current_cinema_name,self.current_hall_name,self.current_session)
+        session = self.ts.get_session(self.current_cinema_name, self.current_hall_name, self.current_session)
         total_seats = session['rows'] * session['cols']
         free_seats = self.ts.get_free_tickets(self.current_cinema_name, self.current_hall_name, self.current_session)
         busy_seats = total_seats - free_seats
@@ -196,7 +211,6 @@ class MyWidget(QMainWindow):
         self.tb_info.append(f"всего мест: {total_seats}")
         self.tb_info.append(f"занято мест: {busy_seats}")
         self.tb_info.append(f"свободно мест: {free_seats}")
-
 
     def buy_ticket(self, row, col):
         self.ts.change_ticket_status(self.current_cinema_name, self.current_hall_name, self.current_session, row, col)

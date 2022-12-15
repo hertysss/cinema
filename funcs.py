@@ -1,4 +1,6 @@
 import json
+from docx import Document
+from docxtpl import DocxTemplate
 
 
 def read_data():
@@ -26,5 +28,12 @@ def print_dict(dct):
         print(key, value)
 
 
-def create_report_timetable(session):
-    pass
+def create_report_timetable(month_name, data):
+    doc = DocxTemplate("template_report_timetable.docx")
+    context = {"month_name": month_name,
+               "data": data
+               }
+    doc.render(context)
+    file_name = f"Расписание_сеансов_за_{month_name}.docx"
+    doc.save(file_name)
+
