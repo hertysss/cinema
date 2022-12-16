@@ -1600,6 +1600,1599 @@
                                     }
                                 }
                             }
+                        },
+                        "16.12.2022 06:34": {
+                            "film_name": "Матрица",
+                            "start_time": "16.12.2022 06:34",
+                            "end_time": "16.12.2022 06:54",
+                            "duration": 20,
+                            "rows": 10,
+                            "cols": 10,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 0,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 0,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 0,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 0,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 1,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 1,
+                                        "col": 7,
+                                        "is_free": false
+                                    },
+                                    "8": {
+                                        "row": 1,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 1,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": false
+                                    },
+                                    "6": {
+                                        "row": 2,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 2,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 2,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 2,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 3,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 3,
+                                        "col": 7,
+                                        "is_free": false
+                                    },
+                                    "8": {
+                                        "row": 3,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 3,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "4": {
+                                    "0": {
+                                        "row": 4,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 4,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 4,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 4,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 4,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 4,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 4,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 4,
+                                        "col": 7,
+                                        "is_free": false
+                                    },
+                                    "8": {
+                                        "row": 4,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 4,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "5": {
+                                    "0": {
+                                        "row": 5,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 5,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 5,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 5,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 5,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 5,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 5,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 5,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 5,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 5,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "6": {
+                                    "0": {
+                                        "row": 6,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 6,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 6,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 6,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 6,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 6,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 6,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 6,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 6,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 6,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "7": {
+                                    "0": {
+                                        "row": 7,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 7,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 7,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 7,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 7,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 7,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 7,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 7,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 7,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 7,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "8": {
+                                    "0": {
+                                        "row": 8,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 8,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 8,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 8,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 8,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 8,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 8,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 8,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 8,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 8,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "9": {
+                                    "0": {
+                                        "row": 9,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 9,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 9,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 9,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 9,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 9,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 9,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 9,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 9,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 9,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        },
+                        "16.12.2022 06:58": {
+                            "film_name": "Матрица",
+                            "start_time": "16.12.2022 06:58",
+                            "end_time": "16.12.2022 07:18",
+                            "duration": 20,
+                            "rows": 10,
+                            "cols": 10,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 0,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 0,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 0,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 0,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 1,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 1,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 1,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 1,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": false
+                                    },
+                                    "6": {
+                                        "row": 2,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 2,
+                                        "col": 7,
+                                        "is_free": false
+                                    },
+                                    "8": {
+                                        "row": 2,
+                                        "col": 8,
+                                        "is_free": false
+                                    },
+                                    "9": {
+                                        "row": 2,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 3,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 3,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 3,
+                                        "col": 8,
+                                        "is_free": false
+                                    },
+                                    "9": {
+                                        "row": 3,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "4": {
+                                    "0": {
+                                        "row": 4,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 4,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 4,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 4,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 4,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 4,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 4,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 4,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 4,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 4,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "5": {
+                                    "0": {
+                                        "row": 5,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 5,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 5,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 5,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 5,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 5,
+                                        "col": 5,
+                                        "is_free": false
+                                    },
+                                    "6": {
+                                        "row": 5,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 5,
+                                        "col": 7,
+                                        "is_free": false
+                                    },
+                                    "8": {
+                                        "row": 5,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 5,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "6": {
+                                    "0": {
+                                        "row": 6,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 6,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 6,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 6,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 6,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 6,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 6,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 6,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 6,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 6,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "7": {
+                                    "0": {
+                                        "row": 7,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 7,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 7,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 7,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 7,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 7,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 7,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 7,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 7,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 7,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "8": {
+                                    "0": {
+                                        "row": 8,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 8,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 8,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 8,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 8,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 8,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 8,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 8,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 8,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 8,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "9": {
+                                    "0": {
+                                        "row": 9,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 9,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 9,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 9,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 9,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 9,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 9,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 9,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 9,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 9,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        },
+                        "16.12.2022 03:06": {
+                            "film_name": "Терминатор",
+                            "start_time": "16.12.2022 03:06",
+                            "end_time": "16.12.2022 03:41",
+                            "duration": 35,
+                            "rows": 10,
+                            "cols": 10,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 0,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 0,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 0,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 0,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 1,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 1,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 1,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 1,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 2,
+                                        "col": 6,
+                                        "is_free": false
+                                    },
+                                    "7": {
+                                        "row": 2,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 2,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 2,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 3,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 3,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 3,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 3,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "4": {
+                                    "0": {
+                                        "row": 4,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 4,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 4,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 4,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 4,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 4,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 4,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 4,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 4,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 4,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "5": {
+                                    "0": {
+                                        "row": 5,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 5,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 5,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 5,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 5,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 5,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 5,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 5,
+                                        "col": 7,
+                                        "is_free": false
+                                    },
+                                    "8": {
+                                        "row": 5,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 5,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "6": {
+                                    "0": {
+                                        "row": 6,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 6,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 6,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 6,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 6,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 6,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 6,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 6,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 6,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 6,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "7": {
+                                    "0": {
+                                        "row": 7,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 7,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 7,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 7,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 7,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 7,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 7,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 7,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 7,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 7,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "8": {
+                                    "0": {
+                                        "row": 8,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 8,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 8,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 8,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 8,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 8,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 8,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 8,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 8,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 8,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                },
+                                "9": {
+                                    "0": {
+                                        "row": 9,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 9,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 9,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 9,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 9,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 9,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 9,
+                                        "col": 6,
+                                        "is_free": true
+                                    },
+                                    "7": {
+                                        "row": 9,
+                                        "col": 7,
+                                        "is_free": true
+                                    },
+                                    "8": {
+                                        "row": 9,
+                                        "col": 8,
+                                        "is_free": true
+                                    },
+                                    "9": {
+                                        "row": 9,
+                                        "col": 9,
+                                        "is_free": true
+                                    }
+                                }
+                            }
                         }
                     }
                 },
@@ -1651,6 +3244,53 @@
                                         "row": 2,
                                         "col": 1,
                                         "is_free": true
+                                    }
+                                }
+                            }
+                        },
+                        "16.12.2022 06:57": {
+                            "film_name": "Терминатор",
+                            "start_time": "16.12.2022 06:57",
+                            "end_time": "16.12.2022 07:32",
+                            "duration": 35,
+                            "rows": 3,
+                            "cols": 2,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": false
                                     }
                                 }
                             }
@@ -1748,6 +3388,51 @@
                                         "row": 1,
                                         "col": 1,
                                         "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": false
+                                    }
+                                }
+                            }
+                        },
+                        "16.12.2022 03:07": {
+                            "film_name": "Терминатор",
+                            "start_time": "16.12.2022 03:07",
+                            "end_time": "16.12.2022 03:42",
+                            "duration": 35,
+                            "rows": 2,
+                            "cols": 3,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": false
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
                                     },
                                     "2": {
                                         "row": 1,
@@ -1903,6 +3588,318 @@
                                     }
                                 }
                             }
+                        },
+                        "16.12.2022 08:04": {
+                            "film_name": "Фильм_на_3_часа",
+                            "start_time": "16.12.2022 08:04",
+                            "end_time": "16.12.2022 11:04",
+                            "duration": 180,
+                            "rows": 2,
+                            "cols": 2,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Мега": {
+                    "name": "Мега",
+                    "rows": 7,
+                    "cols": 7,
+                    "sessions": {
+                        "16.12.2022 03:05": {
+                            "film_name": "Фильм_на_3_часа",
+                            "start_time": "16.12.2022 03:05",
+                            "end_time": "16.12.2022 06:05",
+                            "duration": 180,
+                            "rows": 7,
+                            "cols": 7,
+                            "price": 100,
+                            "tickets": {
+                                "0": {
+                                    "0": {
+                                        "row": 0,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 0,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 0,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 0,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 0,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 0,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 0,
+                                        "col": 6,
+                                        "is_free": true
+                                    }
+                                },
+                                "1": {
+                                    "0": {
+                                        "row": 1,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 1,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 1,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 1,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 1,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 1,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 1,
+                                        "col": 6,
+                                        "is_free": true
+                                    }
+                                },
+                                "2": {
+                                    "0": {
+                                        "row": 2,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 2,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 2,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 2,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 2,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 2,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 2,
+                                        "col": 6,
+                                        "is_free": false
+                                    }
+                                },
+                                "3": {
+                                    "0": {
+                                        "row": 3,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 3,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 3,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 3,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 3,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 3,
+                                        "col": 5,
+                                        "is_free": false
+                                    },
+                                    "6": {
+                                        "row": 3,
+                                        "col": 6,
+                                        "is_free": true
+                                    }
+                                },
+                                "4": {
+                                    "0": {
+                                        "row": 4,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 4,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 4,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 4,
+                                        "col": 3,
+                                        "is_free": false
+                                    },
+                                    "4": {
+                                        "row": 4,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 4,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 4,
+                                        "col": 6,
+                                        "is_free": true
+                                    }
+                                },
+                                "5": {
+                                    "0": {
+                                        "row": 5,
+                                        "col": 0,
+                                        "is_free": false
+                                    },
+                                    "1": {
+                                        "row": 5,
+                                        "col": 1,
+                                        "is_free": false
+                                    },
+                                    "2": {
+                                        "row": 5,
+                                        "col": 2,
+                                        "is_free": false
+                                    },
+                                    "3": {
+                                        "row": 5,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 5,
+                                        "col": 4,
+                                        "is_free": false
+                                    },
+                                    "5": {
+                                        "row": 5,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 5,
+                                        "col": 6,
+                                        "is_free": false
+                                    }
+                                },
+                                "6": {
+                                    "0": {
+                                        "row": 6,
+                                        "col": 0,
+                                        "is_free": true
+                                    },
+                                    "1": {
+                                        "row": 6,
+                                        "col": 1,
+                                        "is_free": true
+                                    },
+                                    "2": {
+                                        "row": 6,
+                                        "col": 2,
+                                        "is_free": true
+                                    },
+                                    "3": {
+                                        "row": 6,
+                                        "col": 3,
+                                        "is_free": true
+                                    },
+                                    "4": {
+                                        "row": 6,
+                                        "col": 4,
+                                        "is_free": true
+                                    },
+                                    "5": {
+                                        "row": 6,
+                                        "col": 5,
+                                        "is_free": true
+                                    },
+                                    "6": {
+                                        "row": 6,
+                                        "col": 6,
+                                        "is_free": true
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1917,6 +3914,10 @@
         "Терминатор": {
             "name": "Терминатор",
             "duration": 35
+        },
+        "Фильм_на_3_часа": {
+            "name": "Фильм_на_3_часа",
+            "duration": 180
         }
     }
 }

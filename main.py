@@ -70,7 +70,25 @@ class MyWidget(QMainWindow):
         create_report_timetable(month_name, data)
 
     def report_grafik(self):
-        pass
+        data = []
+        for cinema_name in self.ts.get_cinemas():
+            total_seats = self.ts.get_total_seats(cinema_name)
+            data.append(cinema_name)
+            temp = [0 for i in range(24)]
+            for hall_name in self.ts.get_halls(cinema_name):
+                for start_time, session in self.ts.get_sessions(cinema_name, hall_name).items():
+                    for i in range(24):
+                        hour_start = int(session['start_time'][-5:-3])
+                        hour_end = int(session['end_time'][-5:-3])
+                        if hour_start <= i <= hour_end:
+                            rows = int(session['rows'])
+                            cols = int(session['cols'])
+                            total = rows * cols
+                            free = self.ts.get_free_tickets(cinema_name, hall_name, start_time)
+                            temp[i] += total - free
+            data += [busy_seats / total_seats for busy_seats in temp]
+
+        create_report_grafik(data)
 
     def report_reklama(self):
         pass

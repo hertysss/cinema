@@ -47,6 +47,14 @@ class Ticket_system:
                     count += 1
         return count
 
+    def get_total_seats(self, cinema_name):
+        seats = 0
+        for hall_name in self.get_halls(cinema_name):
+            rows = int(self.cinemas[cinema_name]["halls"][hall_name]["rows"])
+            cols = int(self.cinemas[cinema_name]["halls"][hall_name]["cols"])
+            seats += cols * rows
+        return seats
+
     def is_ticket_free(self, cinema_name, hall_name, start_time, row, col):
         row, col = str(row), str(col)
         return self.cinemas[cinema_name]["halls"][hall_name]["sessions"][start_time]["tickets"][row][col]["is_free"]
