@@ -91,7 +91,8 @@ class MyWidget(QMainWindow):
         create_report_grafik(data)
 
     def report_reklama(self):
-        pass
+        data = self.ts.get_films()
+        create_report_presentation(data)
 
     def load_data(self):
         # create_json()
@@ -119,7 +120,6 @@ class MyWidget(QMainWindow):
         nearest_datetime = nearest_datetime.toString("dd.MM.yyyy HH:mm")
 
         if nearest_cinema_name:
-            print(f'{nearest_cinema_name}, {nearest_hall_name}, {nearest_datetime}')
             self.show_cinemas()
 
             for i in range(self.lw_cinemas.count()):

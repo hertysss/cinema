@@ -1,7 +1,14 @@
 import json
-from docx import Document
+from random import randint
+
 from docxtpl import DocxTemplate
+
 import xlsxwriter
+
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+
 
 
 def read_data():
@@ -30,16 +37,16 @@ def print_dict(dct):
 
 
 def create_report_timetable(month_name, data):
-    doc = DocxTemplate("template_report_timetable.docx")
+    doc = DocxTemplate("templates/template_report_timetable.docx")
     context = {"month_name": month_name,
                "data": data
                }
     doc.render(context)
-    file_name = f"Расписание_сеансов_за_{month_name}.docx"
+    file_name = f"reports/Расписание сеансов за {month_name}.docx"
     doc.save(file_name)
 
 def create_report_grafik(data):
-    workbook = xlsxwriter.Workbook('график_загруженности_кинотеатров.xlsx')
+    workbook = xlsxwriter.Workbook('reports/график загруженности кинотеатров.xlsx')
     worksheet = workbook.add_worksheet()
 
     worksheet.write_column('A1', data)
@@ -55,6 +62,36 @@ def create_report_grafik(data):
         chart.add_series({'values': f'=Sheet1!A{i * 25 + 2}:A{i * 25 + 25}',
                           'name': f'=Sheet1!A{i * 25 + 1}'})
 
-
     worksheet.insert_chart('C1', chart)
     workbook.close()
+
+def create_report_presentation(films):
+
+    epitets = ["самый кассовый фильм года", "остросюжетный фильм",
+              "во всех кинотеатрах нашего старого знакомого фильм", "самый убойный фильм этого лета",
+              "лучший фильм от знаменитого режиссера"]
+    prs = Presentation()
+
+    for film in films:
+
+        title_slide_layout = prs.slide_layouts[8]
+
+        slide = prs.slides.add_slide(title_slide_layout)
+
+        title = slide.placeholders[0]
+        num = randint(0, len(epitets) - 1)
+        title.text = f'Смотрите {epitets[num]} {film}'
+
+        pic = slide.placeholders[1]
+        film_name = "_".join(film.split())
+        try:
+            pic.insert_picture(f'images/{film_name}.jpg')
+        except:
+            pass
+
+        text = slide.placeholders[2]
+        text.text = "Текст слайда..."
+
+
+
+    prs.save('reports/Буклеты фильмов.pptx')
