@@ -65,7 +65,7 @@ def create_report_grafik(data):
     worksheet.insert_chart('C1', chart)
     workbook.close()
 
-def create_report_presentation(films):
+def create_report_presentation(films, data):
 
     epitets = ["самый кассовый фильм года", "остросюжетный фильм",
               "во всех кинотеатрах нашего старого знакомого фильм", "самый убойный фильм этого лета",
@@ -89,8 +89,9 @@ def create_report_presentation(films):
         except:
             pass
 
+        lst_cinemas = data[film]
         text = slide.placeholders[2]
-        text.text = "Текст слайда..."
+        text.text = f"Премьеры в кинотеатрах: {', '.join(lst_cinemas)}"
 
 
 

@@ -91,8 +91,16 @@ class MyWidget(QMainWindow):
         create_report_grafik(data)
 
     def report_reklama(self):
-        data = self.ts.get_films()
-        create_report_presentation(data)
+        data = dict()
+        films = self.ts.get_films()
+        for cinema_name in self.ts.get_cinemas():
+            for hall_name in self.ts.get_halls(cinema_name):
+                for start_time, session in self.ts.get_sessions(cinema_name, hall_name).items():
+                    if session["film_name"] not in data:
+                        data[session["film_name"]] = {cinema_name}
+                    else:
+                        data[session["film_name"]].add(cinema_name)
+        create_report_presentation(films, data)
 
     def load_data(self):
         # create_json()
