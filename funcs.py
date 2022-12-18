@@ -89,10 +89,8 @@ def create_report_presentation(films, data):
         except:
             pass
 
+        txt = slide.placeholders[2]
         lst_cinemas = data[film]
-        text = slide.placeholders[2]
-        text.text = f"Премьеры в кинотеатрах: {', '.join(lst_cinemas)}"
-
-
+        txt.text = f"Премьеры в кинотеатрах: {', '.join(lst_cinemas)}"
 
     prs.save('reports/Буклеты фильмов.pptx')
